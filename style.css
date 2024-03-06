@@ -1,0 +1,235 @@
+/* Write CSS below */
+body {
+  background-color: #000;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 25px;
+  max-width: 1440px;
+}
+
+.title {
+  border-bottom: 2px solid #FFE3FF;
+  color: #fff;
+  background-color: #000;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+.bio {
+  color: #fff;
+  background-color: #000;
+  padding-bottom: 25px;
+}
+
+.achievements {
+  border-top: 2px solid #853A3A;
+  border-bottom: 2px solid #853A3A;
+  background-color: #fff;
+  color: #000;
+  margin: 0 -25px;
+  padding: 12.5px 25px;
+}
+
+.experiences div,
+.hobbies div,
+.goals div,
+.things div,
+.work div,
+.personal div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 30px;
+  row-gap: 25px;
+  border: 1px solid #FFE3FF;
+  border-radius: 3px;
+  padding: 0 16px;
+}
+
+.experiences p,
+.hobbies p,
+.things p,
+.personal p {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  padding: 16px;
+}
+
+.work p {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  padding: 16px;
+  justify-content: center;
+}
+
+.experiences p {
+  border: 2px solid #853485;
+  max-width: 275px;
+}
+
+.hobbies p {
+  border: 2px solid #225C24;
+  max-width: 275px;
+}
+
+.goals p {
+  border: 2px solid #853A3A;
+  border-radius: 3px;
+  padding: 16px;
+}
+
+.things-list,
+.things p {
+  border: 2px solid #30597A;
+}
+
+.things p {
+  max-width: 400px;
+}
+
+.work-list,
+.work p {
+  border: 2px solid #E3F4FF;
+}
+
+.things-list,
+.personal-list {
+  width: 100%;
+  max-width: 375px;
+  padding: 16px 16px 16px 40px;
+  border-radius: 3px;
+}
+
+.personal-list,
+.personal p {
+  border: 2px solid #DA9DDA;
+  align-self: stretch;
+}
+
+.personal p {
+  max-width: 400px;
+}
+
+.work-list {
+  width: 100%;
+  padding: 16px 16px 16px 40px;
+  border-radius: 3px;
+}
+
+.work a {
+  align-self: center;
+}
+
+.experiences img,
+.hobbies img,
+.things img,
+.work img,
+.personal img {
+  height: auto;
+  max-width: 100%;
+  padding-bottom: 16px;
+}
+
+.experiences em,
+.hobbies em,
+.things em,
+.personal em {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.nahse-wmac-logo {
+  background-color: #000;
+  padding: 10px;
+}
+
+.cmu-logo {
+  background-color: #fff;
+  padding: 10px;
+}
+
+footer {
+  color: #fff;
+  text-align: right;
+}
+
+@media only screen and (min-width:594px) {
+
+  .experiences p,
+  .hobbies p,
+  .things p,
+  .personal p {
+    max-width: 40%;
+  }
+
+  .things-list,
+  .personal-list {
+    max-width: 100%;
+  }
+
+  .work p {
+    max-width: 22%;
+  }
+}
+
+@media only screen and (min-width:786px) {
+
+  .experiences p,
+  .hobbies p {
+    max-width: 300px;
+  }
+
+  .things p,
+  .personal p {
+    max-width: 25%;
+  }
+
+  .work p {
+    max-width: 25%;
+  }
+
+  .things-list,
+  .personal-list {
+    max-width: 22%;
+  }
+}
+
+@media only screen and (min-width: 1134px) {
+
+  .experiences p,
+  .hobbies p {
+    max-width: 19%;
+  }
+
+  .things p,
+  .personal p,
+  .work p {
+    max-width: 28%;
+  }
+
+  .things-list,
+  .personal-list {
+    max-width: 25%;
+  }
+}
+
+@media only screen and (min-width: 1491px) {
+  body {
+    margin: 0 auto;
+    padding: 25px;
+    border: solid #FFE3FF;
+    border-width: 0 2px;
+  }
+}
