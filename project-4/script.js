@@ -1,7 +1,6 @@
 // Import Statement for Prompt-Sync Library
 const prompt = require("prompt-sync")({ sigint: true });
 
-// Write Your Code Below
 console.log(`--------------------------------------`);
 console.log(`|                Menu                |`);
 console.log(`--------------------------------------`);
