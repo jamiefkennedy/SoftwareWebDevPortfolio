@@ -20,4 +20,7 @@ Developed an e-commerce product showcase page presenting products in a captivati
 Designed a vibrant and user-friendly landing page for a concert event. The page features an artist lineup, ticket purchasing options, and a sign-up section for updates. Employed advanced HTML and CSS techniques to deliver a dynamic and responsive user experience.
 
 **Project 4:**
-Constructed a terminal menu for a laundromat in JavaScript, enabling users to select options and quantities, culminating in the generation of a receipt for their order.
+Constructed a terminal menu for a laundromat in JavaScript, enabling users to select options and quantities, culminating in the generation of a receipt for their order. Coded in Codio.
+
+**Project 5:**
+Built an interactive quiz game that tests the player’s knowledge on a specific topic. Coded in Codio.
