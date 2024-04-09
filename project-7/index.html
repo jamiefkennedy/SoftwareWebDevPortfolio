@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virtual Birthday Card Board</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Implement a form for users to input their name, a personal message, and a URL for an image or GIF. -->
+    <form id="card-form">
+        <label for="name">Your Name:</label>
+        <input type="text" name="name" id="name" required>
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+        <label for="image-gif">Image/GIF URL:</label>
+        <input type="url" name="image-gif" id="image-gif" required>
+        <button id="submit" type="submit">Create Card</button>
+    </form>
+    <div id="card-grid" class="grid-container"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
