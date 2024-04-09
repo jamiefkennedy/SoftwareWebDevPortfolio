@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(
+      to right,
+      #15EBA6 12.5%,
+      #15A4EB 12.5% 25%,
+      #3F6B5D 25% 37.5%,
+      #15E7EB 37.5% 50%,
+      #15EB5D 50% 62.5%,
+      #3F5D6B 62.5% 75%,
+      #1560EB 75% 87.5%,
+      #63E8EB 87.5%
+    );
+  }
+  form#card-form {
+    width: 35%;
+    background-color: #fff;
+    border: 2px #000 solid;
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    font-size: 1.5rem;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+label {
+    display: block;
+    margin: 1rem 0;
+}
+
+input, textarea {
+    font-size: 1.5rem;
+    display: block;
+    width: 98%;
+    margin: 1rem auto;
+}
+
+button#submit {
+    margin: 1.25rem auto;
+    font-size: 1.5rem;
+    display: block;
+}
