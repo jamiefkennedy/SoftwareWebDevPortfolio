@@ -23,4 +23,7 @@ Designed a vibrant and user-friendly landing page for a concert event. The page 
 Constructed a terminal menu for a laundromat in JavaScript, enabling users to select options and quantities, culminating in the generation of a receipt for their order. Coded in Codio.
 
 **Project 5:**
-Built an interactive quiz game that tests the player’s knowledge on a specific topic. Coded in Codio.
+Built an interactive quiz game that tests the player’s knowledge on a specific topic. Coded in Codio using JavaScript.
+
+**Project 6:**
+Created a simple personal budget tracker that allows users to add, view, and remove income and expenses. Coded in Codio using JavaScript.
