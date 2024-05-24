@@ -36,3 +36,6 @@ Created a web application using React that allows users to share their favorite 
 
 **Project 9:**
 Created a React application that displays a gallery of different charater data fetched from a Game of Thrones API. The application includes a main page with a gallery view and a detailed view for individual character data.
+
+**Project 10:**
+Created a React and Supabase application that allows users to add, view, and delete contacts from a database.
