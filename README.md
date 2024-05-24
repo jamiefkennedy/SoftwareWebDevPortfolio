@@ -33,3 +33,6 @@ Created a web application that allows users to contribute to a collective birthd
 
 **Project 8:**
 Created a web application using React that allows users to share their favorite recipes with the community.
+
+**Project 9:**
+Created a React application that displays a gallery of different charater data fetched from a Game of Thrones API. The application includes a main page with a gallery view and a detailed view for individual character data.
