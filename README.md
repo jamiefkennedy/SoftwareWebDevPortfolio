@@ -30,3 +30,6 @@ Created a simple personal budget tracker that allows users to add, view, and rem
 
 **Project 7:**
 Created a web application that allows users to contribute to a collective birthday message board by creating personalized virtual birthday cards. Uses HTML, CSS, and JavaScript.
+
+**Project 8:**
+Created a web application using React that allows users to share their favorite recipes with the community.
