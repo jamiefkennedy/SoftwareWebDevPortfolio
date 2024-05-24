@@ -27,3 +27,6 @@ Built an interactive quiz game that tests the player’s knowledge on a specific
 
 **Project 6:**
 Created a simple personal budget tracker that allows users to add, view, and remove income and expenses. Coded in Codio using JavaScript.
+
+**Project 7:**
+Created a web application that allows users to contribute to a collective birthday message board by creating personalized virtual birthday cards. Uses HTML, CSS, and JavaScript.
