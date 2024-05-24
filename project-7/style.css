@@ -1,19 +1,30 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
 body {
-    background: linear-gradient(
-      to right,
-      #15EBA6 12.5%,
-      #15A4EB 12.5% 25%,
-      #3F6B5D 25% 37.5%,
-      #15E7EB 37.5% 50%,
-      #15EB5D 50% 62.5%,
-      #3F5D6B 62.5% 75%,
-      #1560EB 75% 87.5%,
-      #63E8EB 87.5%
-    );
-  }
-  form#card-form {
-    width: 35%;
-    background-color: #fff;
+  background: linear-gradient(
+    to right,
+    #333333 12.5%,
+    #666666 12.5% 25%,
+    #999999 25% 37.5%,
+    #000000 37.5% 62.5%,
+    #999999 62.5% 75%,
+    #666666 75% 87.5%,
+    #333333 87.5%
+  );
+}
+header {
+  padding: 0.5rem;
+  background-color: #eee;
+}
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+  form#card-form, .card {
+    width: 80%;
+    background-color: #eee;
     border: 2px #000 solid;
     border-radius: 5px;
     padding: 1.5rem;
@@ -38,4 +49,69 @@ button#submit {
     margin: 1.25rem auto;
     font-size: 1.5rem;
     display: block;
+}
+.grid-container {
+  display: grid;
+
+}
+.card {
+  display: block;
+  border-width: 5px;
+}
+.card img {
+  border: 2px solid #fff;
+  min-width: 255px;
+  width: 100%;
+  height: 255px;
+  object-fit: cover;
+  margin: 2rem auto;
+  display: block;
+}
+.card div {
+  display: flex;
+  justify-content: space-between;
+}
+.card button {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-color: #999;
+}
+.feature {
+  background-color: #FFD700;
+}
+.featured-card {
+  border-color: #FFD700;
+}
+.featured-card p {
+  font-weight: bold;
+}
+.delete {
+  background-color: #f00;
+}
+@media screen and (min-width: 426px) {
+  .card img {
+    min-width: 325px;
+    width: 100%;
+    height:325px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .card img {
+    min-width: 300px;
+    height: 100%;
+    max-height: 575px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  form#card-form {
+    width: 60%;
+  }
 }
