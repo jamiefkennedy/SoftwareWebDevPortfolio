@@ -77,7 +77,8 @@ const Sidebar = () => {
       </ul>
 
       <p className="pt-10 fs-15">
-        Copyright © {new Date().getFullYear()}{" "}
+        Copyright © {new Date().getFullYear()}{" "} Jamie Kennedy.
+        <br />Theme by{" "}
         <a
           style={{ color: "inherit" }}
           href="https://themeforest.net/user/elite-themes24"
