@@ -47,7 +47,7 @@ const Hero = () => {
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          Hi, I’m <span className="fw-500">Jamie Kennedy</span>
+          <span className="fw-500">Jamie Kennedy</span> - Expert in Web Design, Development, and Software Solutions
         </div>
         <div className="row">
           <div
@@ -56,7 +56,7 @@ const Hero = () => {
             data-aos-delay="300"
           >
             <h1 className="hero-heading fw-500 font-recoleta tx-dark mb-65 lg-mb-40">
-              Ready to Elevate Your Online Presence?
+            Bring Your Vision to Life Online
             </h1>
           </div>
           <div
@@ -65,9 +65,7 @@ const Hero = () => {
             data-aos-delay="400"
           >
             <p className="text-lg pe-xxl-4 ps-xxl-4 mb-75 lg-mb-50">
-              Let's connect and create something amazing together. From
-              front-end engineering to complete web solutions, I'm here to help
-              you succeed.
+            Struggling to make your spiritual business or non-profit stand out online? Overwhelmed by coding and programming challenges?
             </p>
           </div>
         </div>
