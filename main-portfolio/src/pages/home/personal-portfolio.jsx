@@ -46,7 +46,7 @@ const PersonalPortfolio = () => {
 			*/}
       <div
         className="fancy-feature-twelve position-relative mt-300 xl-mt-200 md-mt-120"
-        id="s2"
+        id="services"
       >
         <div className="container">
           <div className="row">
@@ -81,7 +81,7 @@ const PersonalPortfolio = () => {
 			*/}
       <div
         className="portfolio-gallery-one position-relative mt-150 pt-100 xl-pt-50 md-mt-80"
-        id="s3"
+        id="portfolio"
         data-aos="fade-up"
       >
         <img
@@ -110,7 +110,7 @@ const PersonalPortfolio = () => {
 			*/}
       <div
         className="fancy-feature-thirteen position-relative mt-250 mb-150 lg-mt-120 lg-mb-100"
-        id="s4"
+        id="skills"
       >
         <div className="fancy-text">Creative</div>
         <div className="container">
@@ -272,7 +272,7 @@ const PersonalPortfolio = () => {
 				Fancy Short Banner Five
 			=====================================================
 			*/}
-      <div className="fancy-short-banner-five p-30 mt-110" id="s5">
+      <div className="fancy-short-banner-five p-30 mt-110" id="contact">
         <div className="bg-wrapper position-relative pt-180 pb-140 lg-pt-80 lg-pb-80">
           <img
             src="/images/shape/shape_68.svg"

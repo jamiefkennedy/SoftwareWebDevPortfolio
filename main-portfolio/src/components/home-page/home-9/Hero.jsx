@@ -34,7 +34,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="hero-banner-four text-center position-relative" id="s1">
+    <div className="hero-banner-four text-center position-relative" id="banner">
       <div className="container">
         <img
           src="/images/media/img_26.jpg"
@@ -72,7 +72,7 @@ const Hero = () => {
           </div>
         </div>
         <a
-          href="#s5"
+          href="#contact"
           className="btn-eight"
           data-aos="fade-up"
           data-aos-delay="500"
