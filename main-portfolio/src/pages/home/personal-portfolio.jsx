@@ -14,6 +14,7 @@ import Skills from "../../components/home-page/home-9/Skills";
 import Testimonial from "../../components/home-page/home-9/Testimonial";
 import Tools from "../../components/home-page/home-9/Tools";
 import Social from "../../components/home-page/home-9/Social";
+import AboutCeo from "@/components/about/AboutCeo";
 
 const PersonalPortfolio = () => {
   return (
@@ -39,6 +40,8 @@ const PersonalPortfolio = () => {
 			--> */}
       <Hero />
 
+
+      <AboutCeo />
       {/* 
 			=============================================
 				Feature Section Twelve

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 const navItems = [
-  { title: "About", href: "#banner" },
+  { title: "About", href: "#about" },
   { title: "Services", href: "#services" },
   { title: "Portfolio", href: "#portfolio" },
   { title: "Skills", href: "#skills" },

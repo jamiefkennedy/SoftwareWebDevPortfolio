@@ -110,7 +110,7 @@
 
 export const navItems = [
   { title: "Home", link: "/" },
-  { title: "About", link: "/#banner" },
+  { title: "About", link: "/#about" },
   { title: "Services", link: "/#services" },
   { title: "Portfolio", link: "/#portfolio" },
   { title: "Skills", link: "/#skills" },
