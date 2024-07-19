@@ -18,7 +18,7 @@ import Social from "../../components/home-page/home-9/Social";
 const PersonalPortfolio = () => {
   return (
     <>
-      <Seo pageTitle="Persoanl Portfolio" />
+      <Seo pageTitle="Jamie Kennedy's Web Design & Development Portfolio" />
 
       {/* <!-- 
         =============================================
