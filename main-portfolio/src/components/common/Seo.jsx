@@ -3,8 +3,7 @@ const Seo = ({ pageTitle }) => (
   <HelmetProvider>
     <Helmet>
       <title>
-        {pageTitle &&
-          `${pageTitle} || Jano - Creative Multipurpose ReactJs Template}`}
+        {pageTitle}
       </title>
     </Helmet>
   </HelmetProvider>
