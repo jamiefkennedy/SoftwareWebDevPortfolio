@@ -32,7 +32,7 @@ const AboutCeo = () => {
 
   return (
     <>
-      <div id="about" className="container mt-150 pt-100 xl-pt-50 md-mt-80">
+      <div id="about" className="container mt-150 pt-100 xl-pt-50 md-mt-80 mb-300 xl-mb-200 md-mb-120">
         <div className="row align-items-center">
           <div className="col-md-6 ms-auto order-md-last">
             <div className="block-style-one" data-aos="fade-left">
