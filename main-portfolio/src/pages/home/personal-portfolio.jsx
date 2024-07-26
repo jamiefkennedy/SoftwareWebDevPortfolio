@@ -39,8 +39,11 @@ const PersonalPortfolio = () => {
 			============================================== 
 			--> */}
       <Hero />
-
-
+      {/* <!-- 
+			=============================================
+				About Jamie Section
+			============================================== 
+			--> */}
       <AboutCeo />
       {/* 
 			=============================================
@@ -48,11 +51,11 @@ const PersonalPortfolio = () => {
 			============================================== 
 			*/}
       <div
-        className="fancy-feature-twelve position-relative mt-300 xl-mt-200 md-mt-120"
+        className="container fancy-feature-twelve position-relative mt-300 xl-mt-200 md-mt-120"
         id="services"
       >
-        <div className="container">
-          <div className="row">
+        <div className="row mx-2 mx-lg-5">
+          <div className="col-12 col-lg-3">
             <div
               className="col-xl-2 col-lg-3 text-center"
               data-aos="fade-right"
@@ -67,16 +70,15 @@ const PersonalPortfolio = () => {
           </div>
           {/* End .row */}
 
-          <div className="block-wrapper md-mt-10">
+          <div className="col md-mt-10">
             <div className="row gx-xxl-5">
               <Block />
             </div>
           </div>
-          {/* /.block-wrapper */}
+          {/* /.block-wrapper removed class*/}
         </div>
-        {/* /.container */}
       </div>
-
+      {/* /.container */}
       {/* 
 			=============================================
 				Portfolio Gallery One

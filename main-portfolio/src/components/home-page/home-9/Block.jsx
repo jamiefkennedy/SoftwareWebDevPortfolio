@@ -1,19 +1,34 @@
 const Block = () => {
   const blocks = [
     {
-      iconSrc: "/images/icon/icon_39.svg",
+      iconSrc: "/images/icon/icon_11.svg",
       bgColor: "#EBF8F8",
-      title: "Graphic & Web Designer",
+      title: "UX/UI Design",
+    },
+    {
+      iconSrc: "/images/icon/icon_133.svg",
+      bgColor: "#FFF8F8",
+      title: "Software Development",
+    },
+    {
+      iconSrc: "/images/icon/icon_164.svg",
+      bgColor: "#F3F5FF",
+      title: "Custom Web Applications",
+    },
+    {
+      iconSrc: "/images/icon/icon_172.svg",
+      bgColor: "#EBF8F8",
+      title: "Web Design & Development",
     },
     {
       iconSrc: "/images/icon/icon_40.svg",
       bgColor: "#FFF8F8",
-      title: "Coding & Programming",
+      title: "Front End Engineering",
     },
     {
-      iconSrc: "/images/icon/icon_41.svg",
+      iconSrc: "/images/icon/icon_14.svg",
       bgColor: "#F3F5FF",
-      title: "Content Management",
+      title: "Content Management Systems",
     },
   ];
 
@@ -22,12 +37,12 @@ const Block = () => {
       {blocks.map((block, index) => (
         <div
           key={index}
-          className="col-md-4 "
+          className="align-items-stretch d-flex col-md-4 "
           data-aos="fade-up"
           data-aos-delay={index * 100}
         >
           <div
-            className="card-style-six md-mt-30 text-center"
+            className="card-style-six md-mt-30 mt-2 mb-2 text-center w-100 "
             style={{ backgroundColor: block.bgColor }}
           >
             <div className="icon d-flex align-items-end justify-content-center">
