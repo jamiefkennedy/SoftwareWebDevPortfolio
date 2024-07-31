@@ -14,12 +14,13 @@ function createCard() {
     const imageGIF = document.getElementById("image-gif").value;
     const newCard = document.createElement("div");
     newCard.setAttribute("class", "card");
-    const newName = document.createElement("h3");
+    const newName = document.createElement("h2");
     newName.innerHTML = username;
     const newMessage = document.createElement("p");
     newMessage.innerHTML = message;
     const newImageGIF = document.createElement("img");
     newImageGIF.setAttribute("src", imageGIF);
+    newImageGIF.setAttribute("alt", "");
     const buttonDiv = document.createElement("div");
     const featureBtn = document.createElement("button");
     featureBtn.setAttribute("class", "feature");
