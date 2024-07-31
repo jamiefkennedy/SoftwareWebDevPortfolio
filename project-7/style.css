@@ -1,4 +1,13 @@
-html, body {
+.kalnia-heading,
+.card h2 {
+  font-family: "Kalnia", Arial, Helvetica, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+html,
+body {
   margin: 0;
   padding: 0;
 }
@@ -16,43 +25,53 @@ body {
 }
 header {
   padding: 0.5rem;
-  background-color: #eee;
-}
-h1 {
-  font-family: Helvetica, Arial, sans-serif;
+  background-color: #feea00;
+  color: #000;
   text-align: center;
+  border-bottom: 3px solid #3f612d;
 }
-  form#card-form, .card {
-    width: 80%;
-    background-color: #eee;
-    border: 2px #000 solid;
-    border-radius: 5px;
-    padding: 1.5rem;
-    margin: 2rem auto;
-    font-size: 1.5rem;
-    font-family: Helvetica, Arial, sans-serif;
+form#card-form,
+.card {
+  width: 80%;
+  background-color: #011936;
+  color: #fff;
+  border: 2px #3f612d solid;
+  border-radius: 5px;
+  padding: 1.5rem;
+  margin: 2rem auto;
+  font-size: 1.5rem;
+  font-family: Helvetica, Arial, sans-serif;
 }
-
+form#card-form {
+  max-width: 1000px;
+}
 label {
-    display: block;
-    margin: 1rem 0;
+  display: block;
+  margin: 1rem 0;
 }
 
-input, textarea {
-    font-size: 1.5rem;
-    display: block;
-    width: 98%;
-    margin: 1rem auto;
+input,
+textarea {
+  font-size: 1.5rem;
+  display: block;
+  width: 98%;
+  margin: 1rem auto;
+  border-color: #776871;
 }
-
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+}
 button#submit {
-    margin: 1.25rem auto;
-    font-size: 1.5rem;
-    display: block;
+  margin: 1.25rem auto;
+  padding: 0.625rem;
+  font-size: 1.5rem;
+  display: block;
+  color: #000;
+  background-color: #feea00;
+  border-color: #3f612d;
 }
 .grid-container {
   display: grid;
-
 }
 .card {
   display: block;
@@ -74,30 +93,33 @@ button#submit {
 .card button {
   font-size: 1.5rem;
   padding: 0.5rem;
-  border-color: #999;
+  border-color: #3f612d;
 }
 .feature {
-  background-color: #FFD700;
+  background-color: #feea00;
 }
 .featured-card {
-  border-color: #FFD700;
+  border-color: #feea00;
 }
 .featured-card p {
   font-weight: bold;
 }
 .delete {
-  background-color: #f00;
+  color: #fff;
+  background-color: #b50000;
 }
 @media screen and (min-width: 426px) {
   .card img {
     min-width: 325px;
     width: 100%;
-    height:325px;
+    height: 325px;
   }
 }
 @media screen and (min-width: 768px) {
   .grid-container {
     grid-template-columns: 1fr 1fr;
+    max-width: 1680px;
+    margin: auto;
   }
   .card {
     display: flex;

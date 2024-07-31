@@ -4,22 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Virtual Birthday Card Board</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalnia&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <h1>Virtual Birthday Card Board</h1>
+      <h1 class="kalnia-heading">Virtual Birthday Card Board</h1>
     </header>
     <!-- Implement a form for users to input their name, a personal message, and a URL for an image or GIF. -->
     <!-- Apply form validation to ensure all fields are populated and the image/GIF URL is valid. -->
     <form id="card-form">
-        <label for="name">Your Name:</label>
-        <input type="text" name="name" id="name" required>
-        <label for="message">Message:</label>
-        <textarea name="message" id="message" cols="30" rows="10" required></textarea>
-        <label for="image-gif">Image/GIF URL:</label>
-        <input type="url" name="image-gif" id="image-gif" required>
-        <button id="submit" type="submit">Create Card</button>
+      <label for="name">Your Name:</label>
+      <input type="text" name="name" id="name" required />
+      <label for="message">Message:</label>
+      <textarea
+        name="message"
+        id="message"
+        cols="30"
+        rows="10"
+        required
+      ></textarea>
+      <label for="image-gif">Image/GIF URL:</label>
+      <input type="url" name="image-gif" id="image-gif" required />
+      <button id="submit" type="submit">Create Card</button>
     </form>
     <div id="card-grid" class="grid-container"></div>
     <script src="script.js"></script>
