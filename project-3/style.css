@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Anta&family=Merriweather&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Merriweather&display=swap");
 * {
   box-sizing: border-box;
 }
 body {
-    margin:0;
-    padding:0;
-    max-width: 1440px;
+  margin: 0;
+  padding: 0;
+  max-width: 1440px;
 }
 p {
   line-height: 1.5;
@@ -13,7 +13,7 @@ p {
 .banner {
   background-color: #eee8aa;
   font-family: "Anta", Helvetica, Arial, sans-serif;
-  font-size: .875rem;
+  font-size: 0.875rem;
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
@@ -21,7 +21,7 @@ p {
   padding: 1rem 0;
 }
 .banner p {
-  margin:0;
+  margin: 0;
 }
 .logo {
   order: 3;
@@ -32,7 +32,9 @@ p {
   left: 22%;
 }
 .hero-container {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://images.unsplash.com/photo-1501612780327-45045538702b?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://images.unsplash.com/photo-1501612780327-45045538702b?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+      no-repeat;
   background-size: cover;
   color: white;
   display: flex;
@@ -49,12 +51,12 @@ p {
 }
 
 .hero-container {
-  color:#59A2FE;
+  color: #59a2fe;
   font-family: "Anta", Helvetica, Arial, sans-serif;
 }
 
 .hero-title {
-  color:#eee8aa;
+  color: #eee8aa;
   font-family: "Anta", Helvetica, Arial, sans-serif;
   letter-spacing: 2px;
   font-size: 2.5rem;
@@ -64,15 +66,15 @@ p {
   color: #ffa500;
 }
 .artist-name:hover {
-  color:#eee8aa;
+  color: #eee8aa;
 }
 .hero-text {
-    font-family: "Merriweather", Georgia, serif;
-    font-size: 1.25rem;
-    text-transform: uppercase;
-    color:#ffa500;    
-    text-align: center;
-    letter-spacing: .5px;
+  font-family: "Merriweather", Georgia, serif;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  color: #ffa500;
+  text-align: center;
+  letter-spacing: 0.5px;
 }
 .hero-span {
   color: #fff;
@@ -80,49 +82,60 @@ p {
   font-size: 1.2rem;
 }
 .pricing-container {
-    background-image: url("https://images.unsplash.com/photo-1508898578281-774ac4893c0c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    text-align: center;
-    padding: 2%;
+  background-image: url("https://images.unsplash.com/photo-1508898578281-774ac4893c0c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  text-align: center;
+  padding: 2%;
 }
-.call-to-action, .info h2 {
-    font-family: "Anta", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 2.5rem;
+.call-to-action,
+.info h2 {
+  font-family: "Anta", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 2.5rem;
 }
-.pricing-container .pricing-container-item:nth-of-type(3) .pricing-info-container {
+.pricing-container
+  .pricing-container-item:nth-of-type(3)
+  .pricing-info-container {
   background-color: #eee8aa;
 }
-.pricing-container .pricing-container-item:nth-of-type(4) .pricing-info-container {
+.pricing-container
+  .pricing-container-item:nth-of-type(4)
+  .pricing-info-container {
   background-color: #c0c0c0;
 }
 .pricing-container-item {
   padding: 2%;
 }
 .pricing-info-container {
-    background-color: #66A1FD;
-    padding: 2%;
+  background-color: #66a1fd;
+  padding: 2%;
 }
-.pricing-info-container:hover, .pricing-container .pricing-container-item:nth-of-type(3) .pricing-info-container:hover, .pricing-container .pricing-container-item:nth-of-type(4) .pricing-info-container:hover {
+.pricing-info-container:hover,
+.pricing-container
+  .pricing-container-item:nth-of-type(3)
+  .pricing-info-container:hover,
+.pricing-container
+  .pricing-container-item:nth-of-type(4)
+  .pricing-info-container:hover {
   background-color: #fff;
 }
 .tier-info {
   font-family: "Anta", Helvetica, Arial, sans-serif;
   font-size: 2rem;
   text-transform: uppercase;
-  color: #2C0030;
+  color: #2c0030;
 }
 .price {
-    font-family: "Merriweather", Georgia, serif;
-    font-size: 2.75rem;
-    color: #000;
-    margin:0;
+  font-family: "Merriweather", Georgia, serif;
+  font-size: 2.75rem;
+  color: #000;
+  margin: 0;
 }
 .fee-info {
   font-size: 1.5rem;
   text-transform: uppercase;
   color: #000;
-  margin:1% 0 3%;
+  margin: 1% 0 3%;
 }
 .buy-tickets {
   background-color: #8b0000;
@@ -168,21 +181,22 @@ p {
 input {
   font-size: 1.125rem;
 }
-input[type="text"], input[type="email"] {
+input[type="text"],
+input[type="email"] {
   width: 100%;
 }
 input[type="submit"] {
   background-color: #eee;
   border: 3px solid #8b0000;
-  margin-top: .75rem;
+  margin-top: 0.75rem;
   padding: 3% 6%;
   text-transform: uppercase;
-  color: #2C0030;
+  color: #2c0030;
 }
 footer {
   background-color: #eee8aa;
-  font-size: .875rem;
-  padding: .75rem 0;
+  font-size: 0.875rem;
+  padding: 0.75rem 0;
   text-align: center;
 }
 h4 {
@@ -194,28 +208,29 @@ h4 {
 }
 .nav ul {
   list-style-type: none;
-  padding-left:0;
+  padding-left: 0;
 }
-.nav p, .nav ul {
+.nav p,
+.nav ul {
   font-size: 1.125rem;
   font-family: "Merriweather", Georgia, serif;
 }
 .links li {
-  padding-bottom:.5rem;
+  padding-bottom: 0.5rem;
 }
 .links a {
-  color:#000;
+  color: #000;
   text-decoration: none;
 }
 .links a:hover {
-  color:#2C0030;
+  color: #2c0030;
 }
 .social ul {
   display: flex;
   flex-direction: row;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
 }
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .banner {
     flex-direction: row;
     justify-content: space-between;
@@ -231,7 +246,9 @@ h4 {
     padding-top: 1%;
   }
   .hero-container {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1501612780327-45045538702b?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://images.unsplash.com/photo-1501612780327-45045538702b?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+        no-repeat;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 8px;
@@ -244,7 +261,7 @@ h4 {
     font-size: 1rem;
   }
   .hero-span {
-    font-size: .625rem;
+    font-size: 0.625rem;
   }
   .hero-container-item {
     display: grid;
@@ -270,7 +287,7 @@ h4 {
     justify-content: space-around;
   }
   input[type="text"] {
-    width:47%;
+    width: 47%;
   }
   input[type="submit"] {
     padding: 1%;
@@ -308,7 +325,7 @@ h4 {
   }
   .sign-up {
     display: block;
-    width:90%;
+    width: 90%;
     margin: 0 auto;
   }
   .name {
@@ -318,17 +335,30 @@ h4 {
     justify-content: space-between;
   }
   input[type="text"] {
-    width:48%;
+    width: 48%;
   }
   .user-email {
     width: 100%;
     display: block;
   }
   input[type="email"] {
-    width:100%;
+    width: 100%;
   }
   input[type="submit"] {
-    width:50%;
+    width: 50%;
     margin-top: 1.25rem;
+  }
+}
+@media screen and (min-width: 1612px) {
+  .logo img {
+    max-width: 100%;
+  }
+  .logo {
+    position: absolute;
+    max-width: 396px;
+    margin-left: auto;
+    margin-right: auto;
+    left: -292px;
+    right: 0px;
   }
 }
