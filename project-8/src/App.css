@@ -8,6 +8,12 @@ body {
     #eee;
   max-width: 1600px;
 }
+h1, h2, h3, h4 {
+  font-family: "Merienda", Helvetica, Arial, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 header,
 h2 {
   padding: 0.5rem;
@@ -15,7 +21,6 @@ h2 {
 }
 h1,
 h2 {
-  font-family: Helvetica, Arial, sans-serif;
   text-align: center;
 }
 h2 {
@@ -23,6 +28,9 @@ h2 {
 }
 textarea {
   font-family: Helvetica, Arial, sans-serif;
+}
+form#recipe-form {
+  max-width: 670px;
 }
 form#recipe-form,
 .recipe {
