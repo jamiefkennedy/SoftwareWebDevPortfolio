@@ -10,8 +10,8 @@ const Portfolio = () => {
 
   const filteredItems =
     filter === "*"
-      ? items.slice(51, 55)
-      : items.slice(51, 55).filter((item) => item.category.includes(filter));
+      ? items.slice(0, 8)
+      : items.slice(0, 8).filter((item) => item.category.includes(filter));
 
   return (
     <>
@@ -20,7 +20,7 @@ const Portfolio = () => {
           <div className="col-lg-4">
             <div className="title-style-five text-center text-lg-start md-mb-20">
               <h2 className="main-title font-recoleta fw-500 tx-dark">
-                My
+                {`My `}
                 <span className="d-inline-block position-relative">
                   Recent
                   <span
@@ -51,22 +51,10 @@ const Portfolio = () => {
                 Design
               </li>
               <li
-                className={filter === "branding" ? "is-checked" : ""}
-                onClick={() => setFilter("branding")}
+                className={filter === "application" ? "is-checked" : ""}
+                onClick={() => setFilter("application")}
               >
-                Branding
-              </li>
-              <li
-                className={filter === "logo" ? "is-checked" : ""}
-                onClick={() => setFilter("logo")}
-              >
-                Logo
-              </li>
-              <li
-                className={filter === "illustration" ? "is-checked" : ""}
-                onClick={() => setFilter("illustration")}
-              >
-                Illustration
+                Application
               </li>
             </ul>
           </div>

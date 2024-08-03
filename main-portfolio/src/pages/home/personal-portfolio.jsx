@@ -89,7 +89,7 @@ const PersonalPortfolio = () => {
         id="portfolio"
         data-aos="fade-up"
       >
-        <img
+        {/* <img
           src="/images/shape/shape_60.svg"
           alt="shape media"
           className="lazy-img shapes shape-one"
@@ -103,7 +103,7 @@ const PersonalPortfolio = () => {
           src="/images/shape/shape_62.svg"
           alt="shape media"
           className="lazy-img shapes shape-three"
-        />
+        /> */}
         <Portfolio />
         {/* /.container */}
       </div>
