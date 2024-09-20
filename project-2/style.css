@@ -16,7 +16,7 @@ body {
   display: block;
   width: 96%;
   max-height: 100%;
-  background-image: url("https://images.unsplash.com/photo-1646526802829-2e8423553212?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("images/banner-background.jpg");
   background-position: center;
 }
 
@@ -108,34 +108,13 @@ footer {
 .copyright {
   text-align: center;
 }
-
-@media screen and (max-width: 1365px) {
+@media screen and (max-width: 425px) {
   .intro {
-    max-width: 36%;
+    max-width: 100%;
   }
-}
 
-@media screen and (max-width: 1252px) {
-  .intro {
-    max-width: 39%;
-  }
-}
-
-@media screen and (max-width: 1156px) {
-  .intro {
-    max-width: 43%;
-  }
-}
-
-@media screen and (max-width: 1049px) {
-  .intro {
-    max-width: 47%;
-  }
-}
-
-@media screen and (max-width: 960px) {
-  .intro {
-    max-width: 51%;
+  h1 {
+    font-size: 1.8rem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -153,15 +132,29 @@ footer {
   .item {
     margin-bottom: 5%;
   }
-
 }
-
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 960px) {
   .intro {
-    max-width: 100%;
+    max-width: 51%;
   }
-
-  h1 {
-    font-size: 1.8rem;
+}
+@media screen and (max-width: 1049px) {
+  .intro {
+    max-width: 47%;
+  }
+}
+@media screen and (max-width: 1156px) {
+  .intro {
+    max-width: 43%;
+  }
+}
+@media screen and (max-width: 1252px) {
+  .intro {
+    max-width: 39%;
+  }
+}
+@media screen and (max-width: 1365px) {
+  .intro {
+    max-width: 36%;
   }
 }
