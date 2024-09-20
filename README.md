@@ -12,7 +12,7 @@ Thank you for taking the time to review my work. I hope it provides insight into
 
 **Project 1:**
 Crafted a personalized About webpage utilizing HTML and CSS skills to reflect my personality, style, and interests. The design is visually appealing, enhanced with basic CSS styling.
-[View Project](https://www.jamiefkennedy.com/project-1/)
+[View Project](https://www.jamiefkennedy.com/project-1/about.html)
 
 **Project 2:**
 Developed an e-commerce product showcase page presenting products in a captivating manner. Leveraged HTML, CSS Box Model, Flexbox, and CSS Grid to create a single-page layout for a visually pleasing and well-organized product display.
